@@ -1,6 +1,8 @@
 var playlist = new Object();
 playlist['Pearl Jam'] = 'Black'
 
-function updatePlaylist(targetObject, artistName, songTitle){
-  return Object.assign({}, targetObject, {[artistName]: songTitle})
+
+
+function updatePlaylist(playlist, artistName, songTitle){
+  return Object.assign({}, playlist {[artistName]: songTitle})
 }
